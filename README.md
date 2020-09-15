@@ -373,6 +373,66 @@ Experiment 5:- write a program to implement circular linked list
 
 
 
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/sortedInsertionCircularLinkedList.jpg)
+
+
+
+In a circular Singly linked list, the last node of the list contains a pointer to the first node of the list. We can have circular singly linked list as well as circular doubly linked list.
+
+We traverse a circular singly linked list until we reach the same node where we started. The circular singly liked list has no beginning and no ending. There is no null value present in the next part of any of the nodes.
+
+
+
+![image](https://static.javatpoint.com/ds/images/circular-singly-linked-list.png)
+
+
+Insertion: -
+
+1	Insertion at beginning	:-
+
+
+Adding a node into circular singly linked list at the beginning.
+
+
+![image](https://static.javatpoint.com/ds/images/insertion-in-circular-singly-list-at-beginning.png)
+
+
+
+2	Insertion at the end:-
+
+
+
+
+Adding a node into circular singly linked list at the end.
+
+
+
+1.	Deletion at beginning	: -
+
+Removing the node from circular singly linked list at the beginning.
+
+![image](https://scanftree.com/Data_Structure/delcirbeg.png)
+
+
+
+
+
+
+2. Deletion at the end:-
+
+Removing the node from circular singly linked list at the end.
+
+![image](https://scanftree.com/Data_Structure/delcirlast.png)
+
+
+3	Searching	Compare each element of the node with the given item and return the location at which the item is present in the list otherwise return null.
+4	Traversing	Visiting each element of the list at least once in order to perform some specific operation.
+
+
+
+
+
 Experiment 6 : - Write a program to implement stack as an array 
                  write a program to implement stack as a linked list
 
@@ -384,4 +444,3 @@ Experiment 6 : - Write a program to implement stack as an array
 
 
 
-Experiment 6 :- write implement stack as an array and linked list
