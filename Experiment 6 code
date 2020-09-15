@@ -1,0 +1,241 @@
+Stack as an array
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#define MAX 3 // Altering this value changes size of stack created
+int st[MAX], top=-1;
+void push(int st[], int val);
+int pop(int st[]);
+int peek(int st[]);
+void display(int st[]);
+int main(int argc, char *argv[]) {
+int val, option;
+do
+{
+printf("\n *****MAIN MENU*****");
+printf("\n 1. PUSH");
+printf("\n 2. POP");
+printf("\n 3. PEEK");
+printf("\n 4. DISPLAY");
+printf("\n 5. EXIT");
+printf("\n Enter your option: ");
+scanf("%d", &option);
+switch(option)
+{
+case 1:
+printf("\n Enter the number to be pushed on stack: ");
+scanf("%d", &val);
+push(st, val);
+break;
+case 2:
+val = pop(st);
+if(val != -1)
+printf("\n The value deleted from stack is: %d", val);
+break;
+case 3:
+val = peek(st);
+if(val != -1)
+printf("\n The value stored at top of stack is: %d", val);
+break;
+case 4:
+display(st);
+break;
+}
+}while(option != 5);
+return 0;
+}
+void push(int st[], int val)
+{
+if(top == MAX-1)
+{
+printf("\n STACK OVERFLOW");
+}
+else
+{
+top++;
+st[top] = val;
+}
+}
+int pop(int st[])
+{
+int val;
+if(top == -1)
+{
+printf("\n STACK UNDERFLOW");
+return -1;
+}
+else
+{
+val = st[top];
+top--;
+return val;
+}
+}
+void display(int st[])
+{
+int i;
+if(top == -1)
+printf("\n STACK IS EMPTY");
+else
+{
+for(i=top;i>=0;i--)
+printf("\n %d",st[i]);
+printf("\n"); // Added for formatting purposes
+}
+}
+int peek(int st[])
+{
+if(top == -1)
+{
+printf("\n STACK IS EMPTY");
+return -1;
+}
+else
+return (st[top]);
+}
+
+Output
+*****MAIN MENU*****
+1. PUSH
+2. POP
+3. PEEK
+4. DISPLAY
+5. EXIT
+Enter your option : 1
+Enter the number to be pushed on stack : 500
+
+
+
+
+
+
+
+
+Stack as a linked list
+
+
+
+
+#include <stdio.h>  
+#include <stdlib.h>  
+void push();  
+void pop();  
+void display();  
+struct node   
+{  
+int val;  
+struct node *next;  
+};  
+struct node *head;  
+  
+void main ()  
+{  
+    int choice=0;     
+    printf("\n*********Stack operations using linked list*********\n");  
+    printf("\n----------------------------------------------\n");  
+    while(choice != 4)  
+    {  
+        printf("\n\nChose one from the below options...\n");  
+        printf("\n1.Push\n2.Pop\n3.Show\n4.Exit");  
+        printf("\n Enter your choice \n");        
+        scanf("%d",&choice);  
+        switch(choice)  
+        {  
+            case 1:  
+            {   
+                push();  
+                break;  
+            }  
+            case 2:  
+            {  
+                pop();  
+                break;  
+            }  
+            case 3:  
+            {  
+                display();  
+                break;  
+            }  
+            case 4:   
+            {  
+                printf("Exiting....");  
+                break;   
+            }  
+            default:  
+            {  
+                printf("Please Enter valid choice ");  
+            }   
+    };  
+}  
+}  
+void push ()  
+{  
+    int val;  
+    struct node *ptr = (struct node*)malloc(sizeof(struct node));   
+    if(ptr == NULL)  
+    {  
+        printf("not able to push the element");   
+    }  
+    else   
+    {  
+        printf("Enter the value");  
+        scanf("%d",&val);  
+        if(head==NULL)  
+        {         
+            ptr->val = val;  
+            ptr -> next = NULL;  
+            head=ptr;  
+        }   
+        else   
+        {  
+            ptr->val = val;  
+            ptr->next = head;  
+            head=ptr;  
+               
+        }  
+        printf("Item pushed");  
+          
+    }  
+}  
+  
+void pop()  
+{  
+    int item;  
+    struct node *ptr;  
+    if (head == NULL)  
+    {  
+        printf("Underflow");  
+    }  
+    else  
+    {  
+        item = head->val;  
+        ptr = head;  
+        head = head->next;  
+        free(ptr);  
+        printf("Item popped");  
+          
+    }  
+}  
+void display()  
+{  
+    int i;  
+    struct node *ptr;  
+    ptr=head;  
+    if(ptr == NULL)  
+    {  
+        printf("Stack is empty\n");  
+    }  
+    else  
+    {  
+        printf("Printing Stack elements \n");  
+        while(ptr!=NULL)  
+        {  
+            printf("%d\n",ptr->val);  
+            ptr = ptr->next;  
+        }  
+    }  
+}  
+
+
