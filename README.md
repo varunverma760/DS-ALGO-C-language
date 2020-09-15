@@ -1,5 +1,23 @@
 # DS-ALGO-C-language
 
+
+
+
+
+
+
+
+
+
+![image](https://media.tenor.com/images/9e29620ff78d2594408dea3eb57922fd/tenor.gif)
+
+
+
+
+
+
+
+
 Expeiment 1 :- Linear Search : -
 
 
@@ -233,6 +251,18 @@ In searching, we match each element of the list with the given element. If the e
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Experiment 4 :- write a program to implement doubly linked list
 
 
@@ -241,6 +271,101 @@ Experiment 4 :- write a program to implement doubly linked list
 
 
 
+
+Doubly linked list: -
+
+
+
+
+Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
+
+
+
+
+![image](https://static.javatpoint.com/ds/images/doubly-linked-list.png)
+
+
+
+
+Operations in doubly linked list
+
+
+
+Insertion at the beginning : -
+
+
+Adding the node into the linked list at beginning.
+
+
+![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/03/DLL_add_front1.png)
+
+
+Insertion at the end : -
+
+
+Adding the node into the linked list to the end.
+
+![image](https://static.javatpoint.com/ds/images/insertion-in-doubly-linked-list-at-the-end.png)
+
+
+
+
+Insterion at the specific position : -
+
+
+Adding the node into the linked list after the specified node.
+
+
+
+![image](https://secureservercdn.net/160.153.138.219/b79.d22.myftpupload.com/wp-content/uploads/2015/10/insertion-of-new-node-step-4.png)
+
+
+
+Deletion: -
+
+1. Deletion at the beginng: -
+
+
+Removing the node from beginning of the list
+
+
+![image](https://static.javatpoint.com/ds/images/deletion-in-doubly-linked-list-at-beginning.png)
+
+
+2. Deletion at the end : -
+
+Removing the node from end of the list.
+
+![image](https://static.javatpoint.com/ds/images/doubly-linked-list4.png)
+
+
+
+
+
+3. Deletion of the node having given data : -
+
+
+Removing the node which is present just after the node containing the given data.
+
+
+
+
+4. Traverse: -
+
+
+
+
+Comparing each node data with the item to be searched and return the location of the item in the list if the item found else return null.
+
+
+
+
+
+
+5. Searching: -
+
+
+Visiting each node of the list at least once in order to perform some specific operation like searching, sorting, display, etc.
 
 
 
