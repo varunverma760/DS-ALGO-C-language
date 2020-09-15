@@ -27,6 +27,8 @@ Expeiment 1 :- Linear Search : -
 
 
 
+
+
 Linear search in C to find whether a number is present in an array. If it's present, then at what location it occurs. It is also known as a sequential search. It is straightforward and works as follows: we compare each element with the element to search until we find it or the list ends. Linear search for multiple occurrences and using a function.
 
 
@@ -34,6 +36,20 @@ Linear search in C to find whether a number is present in an array. If it's pres
 The time complexity of above algorithm is O(n).
 
 Linear search is rarely used practically because other search algorithms such as the binary search algorithm and hash tables allow significantly faster searching comparison to Linear search.
+
+
+
+
+
+
+
+
+
+
+
+![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Linear-Search.png)
+
+
 
 
 
