@@ -430,11 +430,40 @@ Removing the node from circular singly linked list at the end.
 4	Traversing	Visiting each element of the list at least once in order to perform some specific operation.
 
 
+Experiment 6 : Write a program to implement stack as an array
 
 
 
-Experiment 6 : - Write a program to implement stack as an array 
-                 write a program to implement stack as a linked list
+STACK uses Last in First Out approach for its operations. Push and Pop operations will be done at the same end called "top of the Stack"
+
+PUSH function in the code is used to insert an element to the top of stack, POP function used to remove the element from the top of stack.
+
+
+For push: -
+
+![image](https://www.sitesbay.com/data-structure/images/push-operation.gif)
+
+
+For Pop :-
+
+![image](https://www.codesdope.com/staticroot/images/ds/stack4.gif)
+
+
+
+Experiment 6: -
+ 
+Write a program to implement stack as a linked list
+
+
+
+
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/1-354.png)
+                 
+                 
+                 
+                 
+                 
 
 
 
