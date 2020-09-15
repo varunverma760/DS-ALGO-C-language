@@ -172,7 +172,7 @@ It involves insertion after the specified node of the linked list. We need to sk
 
 
 
-Deletion
+Deletion and Traversing:-
 
 
 
@@ -181,11 +181,55 @@ Deletion
 
 
 
+The Deletion of a node from a singly linked list can be performed at different positions. Based on the position of the node being deleted, the operation is categorized into the following categories.
+
+
+
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/20200318172830/ezgif.com-gif-maker2.gif)
+
+
+
+Deletion at the beginning : -
+
+
+
+It involves deletion of a node from the beginning of the list. This is the simplest operation among all. It just need a few adjustments in the node pointers.
+
+
+
+![image](https://scanftree.com/Data_Structure/fdel.png)
+
+
+
+Deletion at the end : -
+
+
+
+It involves deleting the last node of the list. The list can either be empty or full. Different logic is implemented for the different scenarios.
+
+
+
+![image](https://static.javatpoint.com/ds/images/linked-list5.png)
+
+
+
+
+Traversing : -
+
+
+
+In traversing, we simply visit each node of the list at least once in order to perform some specific operation on it, for example, printing data part of each node present in the list.
+
+
+
+Searching: -
 
 
 
 
 
+In searching, we match each element of the list with the given element. If the element is found on any of the location then location of that element is returned otherwise null is returned. .
 
 
 
@@ -201,6 +245,11 @@ Experiment 4 :- write a program to implement doubly linked list
 
 
 Experiment 5:- write a program to implement circular linked list
+
+
+
+Experiment 6 : - Write a program to implement stack as an array 
+                 write a program to implement stack as a linked list
 
 
 
