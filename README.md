@@ -26,16 +26,6 @@ Experiment 2:-
 
 
 
-Linked List
-Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
-A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.
-The last node of the list contains pointer to the null.
-DS Linked List
-
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fdifference-between-a-static-queue-and-a-singly-linked-list%2F&psig=AOvVaw1AOVwnr-Lo_U0o9TQuNbYs&ust=1600281585540000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCND6uM3n6-sCFQAAAAAdAAAAABAD)
-
-
-
 
 
 
@@ -43,6 +33,18 @@ DS Linked List
 Experiment 3:- write a program to implement singly linked list
 
 
+
+
+Linked List
+Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
+A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.
+The last node of the list contains pointer to the null.
+DS Linked List
+
+
+
+
+![image](https://media.geeksforgeeks.org/wp-content/uploads/20200318172830/ezgif.com-gif-maker2.gif)
 
 
 
