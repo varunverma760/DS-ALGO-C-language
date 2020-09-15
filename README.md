@@ -44,7 +44,29 @@ DS Linked List
 
 
 
+
+
+
+
+![image](https://static.javatpoint.com/ds/images/linked-list.png)
+
+
+
+
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/20200318172830/ezgif.com-gif-maker2.gif)
+
+
+
+
+
+
+![image](https://secureservercdn.net/160.153.138.219/b79.d22.myftpupload.com/wp-content/uploads/2015/09/Singly-linked-list.png)
+
+
+
+
+
+
 
 
 
