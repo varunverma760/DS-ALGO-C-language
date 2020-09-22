@@ -561,3 +561,45 @@ Applications of queue
 
 
 
+
+
+
+
+
+
+
+***IMPLEMENTATION OF QUEUE USING LINKED LIST:-***
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://2.bp.blogspot.com/-C0-GRZw0i4k/UK7SXzLU65I/AAAAAAAADbQ/9gezermtcog/s1600/%5Bqueue3%5Dmycomputerscience.net.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
